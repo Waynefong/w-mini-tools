@@ -4,7 +4,7 @@
  * 扁平化为[1,2]
  * 注意：仅匹配value值，需要递归处理的话，子级key为children
  */
-export const flatArrfromData = (data: Array<any>) => {
+export const flatArrFromData = (data: Array<any>) => {
   const resultData = <Array<any>>[];
   const flat = (arr: Array<any>) => {
     arr.forEach((item) => {
@@ -25,7 +25,11 @@ export const flatArrfromData = (data: Array<any>) => {
  * reduce[2]
  * 返回[1,3,4,5,6]
  */
-export const batchAddDel = (addition: Array<any>, reduce: Array<any>, data: Array<any>) => {
+export const batchAddDel = (
+  addition: Array<any>,
+  reduce: Array<any>,
+  data: Array<any>
+) => {
   const beforeReduce = data.filter((d) => {
     let same = 0;
     reduce.forEach((r) => {
