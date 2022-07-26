@@ -25,11 +25,7 @@ export const flatArrFromData = (data: Array<any>) => {
  * reduce[2]
  * 返回[1,3,4,5,6]
  */
-export const batchAddDel = (
-  addition: Array<any>,
-  reduce: Array<any>,
-  data: Array<any>
-) => {
+export const batchAddDel = (addition: Array<any>, reduce: Array<any>, data: Array<any>) => {
   const beforeReduce = data.filter((d) => {
     let same = 0;
     reduce.forEach((r) => {

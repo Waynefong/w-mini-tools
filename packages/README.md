@@ -9,8 +9,8 @@
 
 ```
   import { flatArrFromData } from 'wTools';
-  const inputData = [{value:1,children:[{value:2}]}]
-  const resultData = flatArrFromData(inputData);//[1,2]
+  const inputData = [{ value: 1, children: [{ value: 2 }] }]; //源数据
+  console.log(flatArrFromData(inputData)); //[1, 2]
 ```
 
 ### 🔖 **batchAddDel**
@@ -18,9 +18,9 @@
 - 根据差集批量删除数据
 
 ```
-import { batchAddDel } from 'wTools';
-  const inputData = [1,2,3,4,5]
-  const addition = [6]
-  const reduce = [2]
-  const resultData = batchAddDel(addition,reduce,inputData);//[1,3,4,5,6]
+  import { batchAddDel } from 'wTools';
+  const inputData = [1, 2, 3, 4, 5]; //源数据
+  const addition = [6]; //新增数据
+  const reduce = [2]; //删减数据
+  console.log(batchAddDel(addition, reduce, inputData)); //[1, 3, 4, 5, 6]
 ```

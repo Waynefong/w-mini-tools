@@ -2,10 +2,12 @@
   "name": "wTools",
   "version": "1.0.0",
   "description": "some tools from my work",
-  "main": "index.js",
+  "main": "dist/lib/index.js",
+  "module": "dist/es/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vite build"
   },
+  "files": ["dist/lib", "dist/es"],
   "keywords": ["tools"],
   "author": "WayneFung",
   "license": "MIT"
