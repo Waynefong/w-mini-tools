@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest -w",
-    "dev:demo": "vite -m demo"
+    "dev:demo": "vite -m demo",
+    "sync": "node syncReadMe.js"
   },
   "keywords": [
     "tools", "mini-tools"

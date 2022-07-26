@@ -83,7 +83,7 @@ export const filterDataByCondition = (filterData: Array<any>, condition: Record<
  * 支持递归，需设置判断递归的key值，如传入数组希望将children值对应的数据也进行递归，则recursionKey传入children
  * @param data 源数据
  * @param style 期望处理后的格式
- * @param recursionKey 需递归关键字，关键字需style内配置的key
+ * @param recursionKey 递归关键字，关键字需style内配置的key
  * @returns
  */
 export const setDataByStyleRecursion = (data: Array<any>, style: Record<string, any>, recursionKey?: string) => {
