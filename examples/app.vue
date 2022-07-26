@@ -6,7 +6,7 @@
 
 <script lang="ts" setup>
 import { onMounted, reactive } from "vue";
-import { flatArrFromData, batchAddDel } from "w-tools";
+import { flatArrFromData, batchAddDel } from "w-mini-tools";
 const resultData = reactive({
   flatResult: <Array<any>>[],
   batchResult: <Array<any>>[],

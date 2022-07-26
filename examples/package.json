@@ -10,6 +10,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "w-tools": "workspace:^1.0.0"
+    "w-mini-tools": "workspace:^1.0.0"
   }
 }
