@@ -1,3 +1,3 @@
-import { flatArrFromData, batchAddDel } from "./array";
+import { flatArrFromData, batchAddDel, filterDataByCondition, setDataByStyleRecursion } from "./array";
 
-export { flatArrFromData, batchAddDel };
+export { flatArrFromData, batchAddDel, filterDataByCondition, setDataByStyleRecursion };

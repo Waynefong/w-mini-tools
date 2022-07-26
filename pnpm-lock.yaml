@@ -17,10 +17,7 @@ importers:
       vue: 3.2.37
 
   examples:
-    specifiers:
-      w-mini-tools: workspace:^1.0.0
-    dependencies:
-      w-mini-tools: link:../packages
+    specifiers: {}
 
   packages:
 
