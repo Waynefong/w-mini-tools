@@ -1,6 +1,6 @@
 {
   "name": "w-mini-tools",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "some tools from my work",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "dev:demo": "vite -m demo"
   },
   "keywords": [
-    "tools"
+    "tools", "mini-tools"
   ],
   "author": "WayneFung",
   "license": "MIT",

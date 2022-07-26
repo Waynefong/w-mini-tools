@@ -8,12 +8,12 @@
     "build": "vite build"
   },
   "files": ["dist/lib", "dist/es"],
-  "keywords": ["tools"],
+  "keywords": ["tools", "mini-tools"],
   "author": "WayneFung",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Waynefong/w-mini-tools.git"
+    "url": "git+https://github.com/Waynefong/w-mini-tools.git"
   },
   "homepage": "https://github.com/Waynefong/w-mini-tools/blob/master/README.md"
 }
