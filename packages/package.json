@@ -10,5 +10,10 @@
   "files": ["dist/lib", "dist/es"],
   "keywords": ["tools"],
   "author": "WayneFung",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Waynefong/w-mini-tools.git"
+  },
+  "homepage": "https://github.com/Waynefong/w-mini-tools/blob/master/README.md"
 }
