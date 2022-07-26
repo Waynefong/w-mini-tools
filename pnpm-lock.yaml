@@ -18,9 +18,13 @@ importers:
 
   examples:
     specifiers:
-      wTools: workspace:^1.0.0
+      w-tools: workspace:^1.0.0
     dependencies:
-      wTools: link:../packages
+      w-tools: link:../packages
+
+  packages:
+
+    specifiers: {}
 
 packages:
 

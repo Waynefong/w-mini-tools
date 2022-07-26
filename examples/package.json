@@ -8,8 +8,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "wTools": "workspace:^1.0.0"
+    "w-tools": "workspace:^1.0.0"
   }
 }
