@@ -94,7 +94,7 @@ export const setDataByStyleRecursion = (data: Array<any>, style: Record<string, 
       for (let i = 0; i < targetArray.length; i++) {
         let temp = <Record<string, any>>{};
         keys.forEach((key) => {
-          if (targetArray[i]?.[style[key]]) {
+          if (targetArray[i]?.[style[key]] !== undefined) {
             temp[key] = targetArray[i][style[key]];
           }
         });
