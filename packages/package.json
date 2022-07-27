@@ -1,14 +1,20 @@
 {
   "name": "w-mini-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "some tools from my work",
   "main": "dist/lib/index.js",
   "module": "dist/es/index.js",
   "scripts": {
     "build": "vite build"
   },
-  "files": ["dist/lib", "dist/es"],
-  "keywords": ["tools", "mini-tools"],
+  "files": [
+    "dist/lib",
+    "dist/es"
+  ],
+  "keywords": [
+    "tools",
+    "mini-tools"
+  ],
   "author": "WayneFung",
   "license": "MIT",
   "repository": {
