@@ -87,6 +87,17 @@ console.log(setDataByStyleRecursion(inputData, style, recursionKey));
  */
 ```
 
+### 🔖 **numMulti**
+
+- 数字以某个系数放大，2\*100 = 200
+- 解决数字精度丢失问题，如：19.9\*100 ≠ 1990
+
+```js
+const num = 19.9; //待转换数字
+const multiple = 100; //倍数
+console.log(numMulti(num, multiple)); //1990
+```
+
 ## 其他帮助
 
 - 不明白的，你可以来我的[ github ](https://github.com/Waynefong/w-mini-tools)看看 🧐
