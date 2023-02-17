@@ -102,3 +102,7 @@ console.log(numMulti(num, multiple)); //1990
 
 - 不明白的，你可以来我的[ github ](https://github.com/Waynefong/w-mini-tools)看看 🧐
 - 有错误的，希望你可以提出，我们一起进步 🤣
+
+## 相关文档
+
+[Document Link](https://waynefong.github.io/w-tools-wordpress/w-mini-tools/)
